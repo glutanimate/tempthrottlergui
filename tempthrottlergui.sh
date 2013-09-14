@@ -46,7 +46,7 @@
 TITLE="Temperature throttler"
 WMCLASS="tempthrottler"
 ICON=utilities-system-monitor # Define application icon
-TRAYICON=utilities-system-monitor # Degine systray icon
+TRAYICON=utilities-system-monitor # Define systray icon
 
 ######## Check if script has Root privileges ########
 
