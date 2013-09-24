@@ -94,6 +94,7 @@ err_exit () {
 	echo ""
 	echo "Error: $@" 1>&2
 	su "$user" -c "notify-send -i \"$ICON\" \"Temperature throttler\" \"ERROR: $@\""
+	NORESTORE=1
 	exit 128
 }
 
